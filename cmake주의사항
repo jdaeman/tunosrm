@@ -1,0 +1,4 @@
+SHAPE 라이브러리가 다른 라이브러리와 종속관계가 있는 듯 하다/
+
+osrm-routed 에서 SHAPE라이브러리를 쓰려면 바이너리 생성 시 (target_link_libraries)
+에서 shape라이브러리를 반드시 추가해야 할 듯.
